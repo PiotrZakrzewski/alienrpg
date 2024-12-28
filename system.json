@@ -1,9 +1,12 @@
 {
 	"id": "alienrpg",
-	"title": "Alien RPG",
-	"description": "The Alien RPG system for Foundry VTT!",
-	"authors": [{ "name": "Paul Watson" }],
-	"url": "https://github.com/pwatson100/alienrpg",
+	"title": "Alien RPG (Homebrewed)",
+	"description": "Slightly customized Alien RPG system for Foundry VTT!",
+	"authors": [
+		{ "name": "Paul Watson" },
+		{ "name": "Piotr Zakrzewski" }
+	],
+	"url": "https://github.com/piotrzakrzewski/alienrpg",
 	"flags": {
 		"hotReload": {
 			"extensions": ["css", "js", "html", "json"],
@@ -89,11 +92,11 @@
 	],
 	"background": "systems/alienrpg/images/egg.webp",
 	"socket": true,
-	"manifest": "https://github.com/pwatson100/alienrpg/releases/download/3.2.0/system.json",
-	"download": "https://github.com/pwatson100/alienrpg/releases/download/3.2.0/master.zip",
+	"manifest": "https://github.com/piotrzakrzewski/alienrpg/releases/download/3.2.1/system.json",
+	"download": "https://github.com/piotrzakrzewski/alienrpg/releases/download/3.2.1/master.zip",
 	"protected": false,
 	"initiative": "1d10",
-	"bugs": "https://github.com/pwatson100/alienrpg/issues",
+	"bugs": "https://github.com/piotrzakrzewski/alienrpg/issues",
 	"grid": {
 		"distance": 5,
 		"units": "m"
